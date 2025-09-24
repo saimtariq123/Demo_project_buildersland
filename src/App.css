@@ -1,0 +1,111 @@
+
+@media (max-width: 640px) {
+  .back-image {
+    justify-content: center;
+    padding-right: 100px;
+    width: 270px;
+    height: 330px;
+    left: 120px;
+  }
+
+  .front-image {
+    width: 180px;
+    height: 180px;
+    top: 180px;
+    left: 20px;
+    
+  }
+  .logo{
+  width: 150px;
+  height: 40px;
+}
+.back-img-2{
+  width: 240px;
+  
+}
+.front-img-2{
+  width: 240px;
+  top: 90px;
+  
+}
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .back-image {
+    width: 338px;
+    height: 504px;
+    left: 0px;
+    
+  }
+
+  .front-image {
+    width: 326px;
+    height: 326px;
+    top: 310px;
+    left: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .back-image {
+    width: 300px;
+    height: 440px;
+    left: 0px;
+    
+  }
+
+  .front-image {
+    width: 250px;
+    height: 250px;
+    top: 310px;
+    left: -20px;
+  }
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  .front-image {
+    width: 380px;
+    height: 380px;
+    top: 250px;
+    left: 0;
+  }
+}
+
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+  
+
+
+/* In your global CSS file (e.g., index.css or App.css) */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+* {
+  box-sizing: border-box; /* Include padding/borders in element widths */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
