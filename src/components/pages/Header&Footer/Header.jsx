@@ -80,7 +80,7 @@ useEffect(() => {
         <figure className="h-auto">
           <img
             className="h-10 sm:h-12 cursor-pointer"
-            src="../public/logo.png"
+            src="/Logo.png"
             alt="Logo"
             onClick={() => navigate('/')}
           />
@@ -242,3 +242,4 @@ useEffect(() => {
 }
 
 export default Header
+
