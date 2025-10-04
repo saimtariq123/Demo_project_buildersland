@@ -20,10 +20,10 @@ function OurTeam() {
     )
   }
   const teamData = [
-    { image: '../public/team-person-1.png', name: 'Tashi Namora', role: 'Site Engineer' },
-    { image: '../public/team-person-2.png', name: 'Larry Ludson', role: 'Civil Engineer' },
-    { image: '../public/team-person-3.png', name: 'Dwight Schrute', role: 'Site Engineer' },
-    { image: '../public/team-person-4.png', name: 'Jim Harper', role: 'Regional Manager' },
+    { image: '/team-person-1.png', name: 'Tashi Namora', role: 'Site Engineer' },
+    { image: '/team-person-2.png', name: 'Larry Ludson', role: 'Civil Engineer' },
+    { image: '/team-person-3.png', name: 'Dwight Schrute', role: 'Site Engineer' },
+    { image: '/team-person-4.png', name: 'Jim Harper', role: 'Regional Manager' },
   ];
 
   return (
@@ -45,4 +45,5 @@ function OurTeam() {
     </FadeInSection>
   );
 }
+
 export default OurTeam;
